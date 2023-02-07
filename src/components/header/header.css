@@ -19,7 +19,7 @@ header {
     justify-content: center;
 }
 
-/* SOCIALS */
+/* HEADER SOCIALS */
 .header__socials {
     display: flex;
     flex-direction: column;
