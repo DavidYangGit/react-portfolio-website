@@ -28,7 +28,7 @@ const About = () => {
 
             <article className='about__card'>
               <FiUsers className='about__icon'/>
-              <h5>Clients</h5>
+              <h5>Employers</h5>
               <small>2</small>
             </article>
 
@@ -40,7 +40,17 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem accusamus eligendi ipsam earum inventore nam ducimus adipisci quas iure, eaque natus cupiditate aut veritatis, fuga totam alias quia, nulla voluptatibus!
+            I am an aspiring software engineer and developer looking to inspire the creation of new software technologies to be enjoyed around the world.
+            Born and raised in California, I attended the University of California, Merced where I interned in the Inclusive Interaction Lab.
+            Over the years, I have picked up leadership experience while leading software project teams as well as various clubs.
+            I find that once I am faced with a problem I explore all possible avenues of solving it
+            because, despite how much I may know, there always is something to learn and to discover.
+          </p>
+          <p>
+            Video editing is currently my favorite hobby since I create and upload music videos to YouTube.
+              Other than video editing, I also code various software programs in my free time.
+              Professionally, I would like to work with all kinds of start-up and FAANG companies.
+              One day, I hope to create and grow a brand/company of my own that produces amazing products that are enjoyed by consumers from every kind of background.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
