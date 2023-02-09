@@ -1,14 +1,27 @@
 import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.jpg'
+import IMG2 from '../../assets/portfolio2.jpg'
+import IMG3 from '../../assets/portfolio3.jpg'
 
 const data = [
     {
         id: 1,
         image: IMG1,
-        title: 'Suck my dick',
-        github: 'https://github.com',
-        demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'
+        title: 'KickIt',
+        github: 'https://github.com/DavidYangGit/KickIt'
+    },
+    {
+        id: 2,
+        image: IMG2,
+        title: 'Feature Detection Model',
+        github: 'https://github.com/DavidYangGit/Betts-Feature-Detection-Model'
+    },
+    {
+        id: 3,
+        image: IMG3,
+        title: 'Trustdriver',
+        github: 'https://github.com/DavidYangGit/Trustdriver'
     }
 ]
 
@@ -23,15 +36,14 @@ const Portfolio = () => {
                     data.map(({id, image, title, github, demo}) => {
                         return (
                             <article key={id} className='portfolio__item'>
-                            <div className="portfolio__item-image">
-                                <img src={image} alt={title} />
-                            </div>
-                            <h3>{title}</h3>
-                            <div className='portfolio__item-cta'>
-                                <a href={github} className='btn' target='_blank'>GitHub</a>
-                                <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
-                            </div>
-                        </article>
+                                <div className="portfolio__item-image">
+                                    <img src={image} alt={title} />
+                                </div>
+                                <h3>{title}</h3>
+                                <div className='portfolio__item-cta'>
+                                    <a href={github} className='btn' target='_blank'>GitHub</a>
+                                </div>
+                            </article>
                         )
                     })
                 }

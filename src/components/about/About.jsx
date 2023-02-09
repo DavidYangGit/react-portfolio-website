@@ -41,16 +41,12 @@ const About = () => {
 
           <p>
             I am an aspiring software engineer and developer looking to inspire the creation of new software technologies to be enjoyed around the world.
-            Born and raised in California, I attended the University of California, Merced where I interned in the Inclusive Interaction Lab.
-            Over the years, I have picked up leadership experience while leading software project teams as well as various clubs.
-            I find that once I am faced with a problem I explore all possible avenues of solving it
-            because, despite how much I may know, there always is something to learn and to discover.
-          </p>
-          <p>
-            Video editing is currently my favorite hobby since I create and upload music videos to YouTube.
-              Other than video editing, I also code various software programs in my free time.
-              Professionally, I would like to work with all kinds of start-up and FAANG companies.
-              One day, I hope to create and grow a brand/company of my own that produces amazing products that are enjoyed by consumers from every kind of background.
+            I am proficient in various different coding languages and technologies with a strong knowledge of data structures and algorithms.
+            Throughout my years in university, I learned how to write clean and efficient code through the various coding projects I was a part of.
+            Need me to build a web or mobile app for you? I can do that.
+            Need help creating and implementing a database or API into your program? I can do that too.
+            If you're interested, please don't hesitate to contact me below.
+            
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
