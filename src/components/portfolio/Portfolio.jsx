@@ -20,8 +20,8 @@ const data = [
     {
         id: 3,
         image: IMG3,
-        title: 'Trustdriver',
-        github: 'https://github.com/DavidYangGit/Trustdriver'
+        title: 'Blackjack',
+        github: 'https://github.com/DavidYangGit/Blackjack'
     }
 ]
 
